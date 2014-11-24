@@ -1,11 +1,20 @@
-# Build and Release Folders
-bin/
-bin-debug/
-bin-release/
-
-# Other files and folders
-.settings/
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+     ##################
+    # Unity ignores:
+    #
+    # !!! WARNING !!!
+    #
+    # … you MUST convert Unity to using Metafiles *before* you start using this
+    # .gitignore file, or you WILL lose data!
+    #
+    # OS X only:
+    .DS_Store
+    *.swp
+    *.Trashes
+    # All platforms:
+    Library
+    Temp
+    *.csproj
+    *.pidb
+    *.unityproj
+    *.sln
+    *.userprefs
